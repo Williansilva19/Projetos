@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/williansilva/Documentos/eclipse-projetos/.metadata/.plugins/org.eclipse.jdt.core
+2411971139.index
+3619290302.index
+1398784187.index

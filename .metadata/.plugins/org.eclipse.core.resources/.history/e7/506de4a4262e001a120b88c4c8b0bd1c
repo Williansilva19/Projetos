@@ -1,0 +1,27 @@
+package aplicacao;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		List<String> list= new ArrayList <>();
+		
+		list.add("maria");
+		list.add("joao");
+		list.add("lucas");
+		list.add(2, "mario");
+		
+		System.out.println(list.size());
+		
+		for (String x : list) {
+			System.out.println(x);
+		}
+		list.removeIf(x -> x.charAt(0) == 'm');
+		for (String x : list) {
+			System.out.println(x);
+		}
+	}
+
+}
